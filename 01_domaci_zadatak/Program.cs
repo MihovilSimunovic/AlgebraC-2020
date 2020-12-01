@@ -9,9 +9,8 @@ namespace _01_domaci_zadatak
             //4.1.2 - Ispis brojeva
             //Napišite program koji na konzoli ispisuje
             //brojeve 1,2,3 svaki u novi red.
-            Console.WriteLine(1);
-            Console.WriteLine(2);
-            Console.WriteLine(3);
+            Console.WriteLine("1\n2\n3");
+         
 
             //4.1.3 - Ledište/Vrelište
             //Napišite program koji će ispisivati temperaturu ledišta i vrelišta
