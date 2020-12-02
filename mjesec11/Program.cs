@@ -8,7 +8,7 @@ namespace mjesec11
         {
             Console.WriteLine("unesite broj!");
 
-            int broj = 13;
+            int broj = 0;
             try
             {
                 broj = int.Parse(Console.ReadLine());
