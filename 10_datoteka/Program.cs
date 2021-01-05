@@ -12,7 +12,7 @@ namespace _10_datoteka
             string txt = Console.ReadLine();
 
             //handle koji kreira file i/ili pregazi postojeci
-           // FileStream fs1 = new FileStream("Proba.txt", FileMode.Create); //FileStream("Proba.txt", 2);
+           //FileStream fs1 = new FileStream("Proba.txt", FileMode.Create); //FileStream("Proba.txt", 2);
 
             // handfle koji dodaje na kraj filea
             FileStream fs1 = new FileStream("Proba.txt", FileMode.Append); //FileStream("Proba.txt", 6);
@@ -27,7 +27,7 @@ namespace _10_datoteka
 
 
             // handfle koji dodaje na kraj filea
-            FileStream fs2 = new FileStream("Proba.txt", FileMode.Open); //FileStream("Proba.txt", 3);
+            FileStream fs2 = new FileStream(@"C:\Users\kastm\Desktop\alggg\AlgebraC-2020\10_datoteka\bin\Debug\netcoreapp3.1\Proba.txt", FileMode.Open); //FileStream("Proba.txt", 3);
 
             StreamReader sr1 = new StreamReader(fs2);
 

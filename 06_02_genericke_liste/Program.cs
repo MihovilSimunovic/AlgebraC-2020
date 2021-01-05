@@ -73,6 +73,9 @@ namespace _06_02_genericke_liste
                 Console.Write("{0} ", item);
             }
 
+            Console.WriteLine("Pritisnite Enter za kraj..");
+            Console.ReadLine();
+
         }
     }
 }

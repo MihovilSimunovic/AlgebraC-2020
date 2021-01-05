@@ -45,6 +45,7 @@ namespace _06_02_List
 
 
             Console.WriteLine("Neparni:");
+
             foreach (var item in neparni)
             {
                 Console.Write(item + " ");
