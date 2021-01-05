@@ -15,7 +15,7 @@ namespace _10_datoteka
            //FileStream fs1 = new FileStream("Proba.txt", FileMode.Create); //FileStream("Proba.txt", 2);
 
             // handfle koji dodaje na kraj filea
-            FileStream fs1 = new FileStream("Proba.txt", FileMode.Append); //FileStream("Proba.txt", 6);
+            FileStream fs1 = new FileStream("Proba1.txt", FileMode.Append); //FileStream("Proba.txt", 6);
 
             StreamWriter sw1 = new StreamWriter(fs1);
 
@@ -27,7 +27,11 @@ namespace _10_datoteka
 
 
             // handfle koji dodaje na kraj filea
+<<<<<<< HEAD
             FileStream fs2 = new FileStream(@"C:\Users\kastm\Desktop\alggg\AlgebraC-2020\10_datoteka\bin\Debug\netcoreapp3.1\Proba.txt", FileMode.Open); //FileStream("Proba.txt", 3);
+=======
+            FileStream fs2 = new FileStream("Proba1.txt", FileMode.Open); //FileStream("Proba.txt", 3);
+>>>>>>> f64b972cfe3f602f4921ab4e71504b32d9c5cb91
 
             StreamReader sr1 = new StreamReader(fs2);
 
