@@ -12,7 +12,7 @@ namespace cheatsheet
             osobe.Add(new Osoba { Ime = "Marko", Prezime = "Cvek" });
             osobe.Add(new Osoba { Ime = "Jana", Prezime = "Avena" });
             osobe.Add(new Osoba { Ime = "Nana", Prezime = "Dobra" });
-
+            
 
             Osoba trazena_osoba = new Osoba();
             foreach (var item in osobe)
@@ -75,23 +75,25 @@ namespace cheatsheet
             // primjer u array
             string[] niz_osobe_na = (
                 from tr_os      // postavimo ime varijable za svaki element kolekcije
-                in osobe.DefaultIfEmpty(new Osoba { Ime = "Jane", Prezime = "Doe" }) //  Ne radi, provjeri zasto
+                in osobe.DefaultIfEmpty(new Osoba() { Ime = "Jane", Prezime = "Doe"} )  //  Ne radi, provjeri zasto
                 where tr_os.Ime.Contains("xy")  // filter
                 select tr_os.Prezime   // selektiramo kompletan element
+                
                 ).ToArray();
 
             Console.WriteLine("Ispis iz niza stringova");
             foreach (var item in niz_osobe_na)
             {
-                Console.WriteLine("Prezime osobe koja u imenu ima 'na'" + item);
+                Console.WriteLine("Prezime osobe koja u imenu ima 'na':::" + item);
             }
 
-
+            Osoba default_vr = new Osoba { Ime = "Markox", Prezime = "Cvek" };
+            osobe.Add(default_vr);
             // primjer first ili default
             var osobe_def = (
             from tr_os      // postavimo ime varijable za svaki element kolekcije
-            in osobe.DefaultIfEmpty(new Osoba { Ime = "Jane", Prezime = "Doe" })        // kolekcija iz koje radimo pretragu
-            where tr_os.Ime.Contains("xx")  // filter
+            in osobe    // kolekcija iz koje radimo pretragu
+            where tr_os.Ime.Contains("x")  // filter
             select tr_os.Prezime   // selektiramo kompletan element
             ).FirstOrDefault();
 

@@ -163,25 +163,20 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "alg-10-datoteke", "alg-10-datoteke", "{268F6A4C-0F49-4DBF-A23E-9BA845F8456B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_datoteka", "10_datoteka\10_datoteka.csproj", "{F3A9FC54-27DC-4F6B-901C-5DA81662263F}"
-<<<<<<< HEAD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Fileovi_datoteke", "10_Fileovi_datoteke\10_Fileovi_datoteke.csproj", "{F619AAC8-2A51-4C24-84C7-D224697D844A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeVidimFile", "NeVidimFile\NeVidimFile.csproj", "{2D08BE96-69CD-4267-8A9F-24E27B0EC795}"
-=======
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Fileovi_datoteke", "10_Fileovi_datoteke\10_Fileovi_datoteke.csproj", "{F619AAC8-2A51-4C24-84C7-D224697D844A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeVidimFile", "NeVidimFile\NeVidimFile.csproj", "{2D08BE96-69CD-4267-8A9F-24E27B0EC795}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "alg-11-Linq", "alg-11-Linq", "{8B368C68-9B6A-4C29-9BF1-5E5E0C923212}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cheatsheet", "cheatsheet\cheatsheet.csproj", "{65058D01-855A-4904-A1B7-6FF2E80F11DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cheatsheet", "cheatsheet\cheatsheet.csproj", "{65058D01-855A-4904-A1B7-6FF2E80F11DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_imena_a_linq", "11_imena_a_linq\11_imena_a_linq.csproj", "{0A439E68-33E4-42EA-921A-8BEC25BD5A25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_imena_a_linq", "11_imena_a_linq\11_imena_a_linq.csproj", "{0A439E68-33E4-42EA-921A-8BEC25BD5A25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_direktor_linq", "11_direktor_linq\11_direktor_linq.csproj", "{344A5644-B9AC-469F-96F7-FA0B70A2932D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_direktor_linq", "11_direktor_linq\11_direktor_linq.csproj", "{344A5644-B9AC-469F-96F7-FA0B70A2932D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQUpiti", "LINQUpiti\LINQUpiti.csproj", "{70C410B6-F16B-425C-AA44-7FE0D3168A0A}"
->>>>>>> f64b972cfe3f602f4921ab4e71504b32d9c5cb91
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQUpiti", "LINQUpiti\LINQUpiti.csproj", "{70C410B6-F16B-425C-AA44-7FE0D3168A0A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -465,12 +460,10 @@ Global
 		{F619AAC8-2A51-4C24-84C7-D224697D844A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F619AAC8-2A51-4C24-84C7-D224697D844A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F619AAC8-2A51-4C24-84C7-D224697D844A}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{2D08BE96-69CD-4267-8A9F-24E27B0EC795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2D08BE96-69CD-4267-8A9F-24E27B0EC795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D08BE96-69CD-4267-8A9F-24E27B0EC795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D08BE96-69CD-4267-8A9F-24E27B0EC795}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{65058D01-855A-4904-A1B7-6FF2E80F11DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{65058D01-855A-4904-A1B7-6FF2E80F11DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65058D01-855A-4904-A1B7-6FF2E80F11DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -487,7 +480,6 @@ Global
 		{70C410B6-F16B-425C-AA44-7FE0D3168A0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70C410B6-F16B-425C-AA44-7FE0D3168A0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70C410B6-F16B-425C-AA44-7FE0D3168A0A}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> f64b972cfe3f602f4921ab4e71504b32d9c5cb91
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
