@@ -177,8 +177,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_direktor_linq", "11_direktor_linq\11_direktor_linq.csproj", "{344A5644-B9AC-469F-96F7-FA0B70A2932D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQUpiti", "LINQUpiti\LINQUpiti.csproj", "{70C410B6-F16B-425C-AA44-7FE0D3168A0A}"
-<<<<<<< HEAD
-=======
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "alg-12-datumi", "alg-12-datumi", "{D427B017-DB40-49F3-88E9-A397357B7AB2}"
 EndProject
@@ -190,18 +188,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "alg-13-Emumeracije", "alg-1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "alg-14-Interface", "alg-14-Interface", "{419A4E99-31AF-4CC4-ABBB-550B4A0F08C1}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-inter", "14-inter\14-inter.csproj", "{547CED10-6A85-4073-BB88-6705A9E48BE6}"
->>>>>>> d800332b735feb26a1d2ad35e3b32d55abf061cf
-=======
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14-inter", "14-inter\14-inter.csproj", "{547CED10-6A85-4073-BB88-6705A9E48BE6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "alg-struct", "alg-struct", "{FB2A0044-05E4-4FB5-AAEF-2AE61DAAE8F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alg-structures", "alg-structures\alg-structures.csproj", "{21E5DB72-F10D-4917-8F2D-CC62A833FA49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "alg-structures", "alg-structures\alg-structures.csproj", "{21E5DB72-F10D-4917-8F2D-CC62A833FA49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Osoba_Zivotinja", "14_Osoba_Zivotinja\14_Osoba_Zivotinja.csproj", "{FD9A35BB-7AFF-4AE3-9846-8DA14981B492}"
->>>>>>> aa75b6994d0bb51e9bada27d87da065ab1c04084
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_Osoba_Zivotinja", "14_Osoba_Zivotinja\14_Osoba_Zivotinja.csproj", "{FD9A35BB-7AFF-4AE3-9846-8DA14981B492}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
